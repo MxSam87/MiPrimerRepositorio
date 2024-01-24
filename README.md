@@ -42,6 +42,7 @@ alert(mensajeDeError);</p></div>
 
 
 10. Ahora, si la edad es mayor o igual a 18, muestra una alerta con el mensaje "¡Puede obtener su licencia de conducir!".
-<div><p>if (edad>=18){
-  alert("¡Puede obtener su licencia de conducir!");
-}</p></div>
+<div><p>let edad = prompt ("Escriba su edad:");</p>
+  <p>if (edad>=18){</p>
+  <p>alert("¡Puede obtener su licencia de conducir!");</p>
+<p></p>}</p></div>
