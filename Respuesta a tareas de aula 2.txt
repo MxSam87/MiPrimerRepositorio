@@ -1,0 +1,9 @@
+Programar requiere práctica. Aquí he creado una espacio adicional de actividades para dar respuesta a los ejercicios solicitados en el aula 2.
+
+1. Pregunta al usuario qué día de la semana es. Si la respuesta es "Sábado" o "Domingo", muestra "¡Buen fin de semana!". De lo contrario, muestra "¡Buena semana!".
+let diaDeSemana=prompt("Por favor escribe un día de la semana");
+if (diaDeSemana=="Sábado" || diaDeSemana=="Domingo"){
+  alert("¡Buen fin de semana!);
+}else{
+  alert("¡Buena semana!")
+}
