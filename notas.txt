@@ -1,0 +1,54 @@
+En JavaScript, el uso del punto y coma (;) es una práctica recomendada. El lenguaje tiene un mecanismo llamado "inserción automática de punto y coma" (automatic semicolon insertion - ASI) que intenta agregar punto y comas automáticamente en ciertos puntos del código donde están ausentes.
+Esto significa que, en algunos casos, JavaScript intentará "corregir" la falta de punto y coma insertándolo automáticamente. Sin embargo, la interpretación del ASI puede llevar a comportamientos inesperados y errores sutiles, especialmente cuando las reglas no son claras.
+Por lo tanto, para evitar posibles problemas y garantizar la claridad del código, muchos desarrolladores prefieren agregar punto y coma de manera explícita en sus programas.
+A pesar de que la inserción automática de punto y coma puede ayudar a mitigar errores de sintaxis, es una buena práctica agregar punto y coma manualmente para evitar ambigüedades y problemas de interpretación. Esto es especialmente importante en situaciones como cuando varias instrucciones están en la misma línea, al usar declaraciones de retorno de valor o al minimizar el código.
+En proyectos colaborativos o de gran escala, la consistencia en el estilo de codificación y la claridad del código son cruciales, y el uso explícito de punto y coma contribuye a un código más legible y menos propenso a errores de interpretación por parte de los programadores y del propio mecanismo de ASI.
+Información adicional:
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Lexical_grammar
+
+
+Cuando escribimos programas en JavaScript, a menudo nos encontramos con la necesidad de tomar decisiones basadas en condiciones. Es aquí donde los operadores lógicos entran en escena y nos ayudan a crear una lógica sólida y eficaz.
+
+A continuación, vamos a explorar los operadores lógicos de una manera simple y fácil de entender. Tendremos ejemplos claros para ilustrar su funcionamiento.
+
+AND (&&)
+
+El operador AND, representado por el símbolo "&&", se utiliza para combinar dos condiciones y evaluar si ambas son verdaderas. Si ambas condiciones son verdaderas, el resultado será... verdadero. De lo contrario, lógicamente será falso. Por ejemplo:
+
+let idad = 25;
+let tieneLicencia = true;
+
+// si la edad es mayor de 18 y tiene una licencia...
+if (idad > 18 && tieneLicencia) {
+  console.log("Puede conducir!");
+} else {
+  console.log("No puede conducir!");
+}
+COPIA EL CÓDIGO
+OR( | | )
+
+El operador OR, representado por los símbolos "||", se utiliza para verificar si al menos una de las condiciones es verdadera. Si una de las condiciones es verdadera, el resultado será verdadero. Si ambas son falsas, el resultado será falso. Aquí tienes un ejemplo: let tieneManzana = false; let tieneBanana = true;
+
+// si tiene manzana o tiene banama…
+if (tieneManzana|| tieneBanana) {
+  console.log("Tienes frutas!");
+} else {
+  console.log("No tienes frutas.");
+}
+COPIA EL CÓDIGO
+Otros tipos de operadores lógicos
+
+Operador	Nombre	Ejemplo	Resultado
+==	Igual	A == B	Verdadero si A es igual a B
+!=	Diferente	A != B	Verdadero si A no es igual a B
+<	Menor que	A < B	Verdadero si A es menor que B
+>	Mayor que	A > B	Verdadero si A es mayor que B
+<=	Menor o igual	A <= B	Verdadero si A es menor o igual a B
+>=	Mayor o igual	A >= B	Verdadero si A es mayor o igual a B
+Operadores Lógicos
+
+Operador	Nombre	Ejemplo	Resultado
+&&	Y / AND	(A > B) && (B == C)	Verdadero si A es mayor que B y B es igual a C
+||	O / OR	(A > B) || (B == C)	Verdadero si A es mayor que B o B es igual a C
+!	NEGACIÓN	!(A == B)	Verdadero si A NO es igual a B
+¿Te gustó este conocimiento y quieres más? Rafa Ballerini tiene un artículo increíble hablando sobre ‘Cómo usar operadores de comparación en Javascript’ que vale la pena leer
