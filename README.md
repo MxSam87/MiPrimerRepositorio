@@ -5,7 +5,7 @@
 
 
 1.Muestra una alerta con el mensaje "¡Bienvenido a nuestro sitio web!".
-<div>alert("¡Bienvenido a nuestro sitio web!");</div>
+<div><p>alert("¡Bienvenido a nuestro sitio web!");</p></div>
 
 
 2. Declara una variable llamada nombre y asígnale el valor "Lua".
