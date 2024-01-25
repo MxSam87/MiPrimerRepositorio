@@ -35,7 +35,7 @@ while(numeroDeUsuario!=numeroSecreto){
       }else{
         alert("El número secreto es mayor");
       }
-      //El contador se incrementa cuando no se acerta. Otras formas de incrementar contadores: intentos=intentos+1 o intentos+=1.
+      //El contador se incrementa cuando no se acierta. Otras formas de incrementar contadores: intentos=intentos+1 o intentos+=1.
       intentos++;
       palabraVeces="veces";
       if (intentos>maximosIntentos){
